@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class HomeController {
     @GetMapping("/")
     public ResponseEntity<String> heartBeat() {
-        return ResponseEntity.ok("App is running");
+        return ResponseEntity.ok("App is running.");
     }
 
 }
